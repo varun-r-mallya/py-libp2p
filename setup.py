@@ -69,6 +69,7 @@ install_requires = [
     "rpcudp>=3.0.0",
     "trio-typing>=0.0.4",
     "trio>=0.26.0",
+    "loguru>=0.7.3",
 ]
 
 # Add platform-specific dependencies

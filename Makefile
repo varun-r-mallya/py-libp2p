@@ -38,7 +38,7 @@ lint:
 	)
 
 test:
-	python -m pytest tests
+	python -m pytest tests -n auto
 
 # protobufs management
 
