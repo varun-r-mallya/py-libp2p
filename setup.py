@@ -37,7 +37,7 @@ extras_require = {
         "pytest-trio>=0.5.2",
         "factory-boy>=2.12.0,<3.0.0",
     ],
-    "interop": ["redis==6.1.0", "logging==0.4.9.6" "loguru==0.7.3"],
+    "interop": ["redis==6.1.0", "logging==0.4.9.6", "loguru==0.7.3"],
 }
 
 extras_require["dev"] = (
@@ -69,6 +69,7 @@ install_requires = [
     "rpcudp>=3.0.0",
     "trio-typing>=0.0.4",
     "trio>=0.26.0",
+    "loguru>=0.7.3",
 ]
 
 # Add platform-specific dependencies
